@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Foresight - Weather Service</title>
 </head>
-
+    <script src="config.js"></script>
+    <script src="main.js"></script>
 <body>
     <div class="container">
         <div class="search-box">
@@ -16,13 +17,13 @@
         </div>
         
         <div class="weather-box">
-            <p><b>Monday</b> 10th May 2021</p>
+            <p style="padding: 20px"><b>Monday</b> 10th May 2021</p>
             <div class="location">
-                <img class="icon" src="/icons/sunny.png" alt="sunny" class="weather-icon" height="130px">
-                <span class="overview">
-                    <p style="float: left">New York City</p>
-                    <p style="float: right; text-align: right">15°C<br>Sunny</p>
-                </span>
+                <img style="margin-bottom: 7px; padding: 10px;" src="/icons/sunny.png" alt="sunny" class="weather-icon" height="130px">
+                <div class="location-details">
+                    <p style="text-align: left">New York City</p>
+                    <p style="text-align: right">15°C<br>Sunny</p>
+                </div>
             </div>
 
             <div class="meteo"> <!--In depth element of overview-->
@@ -32,6 +33,6 @@
                 <p>Precipitacion</p>
             </div>
 
-    <script src="script.js"></script>
+            </div>
 </body>
 </html>

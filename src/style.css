@@ -1,15 +1,11 @@
 * {
-    float: none;
-    margin: 0;
-    padding: 0;
+    border: none;
     outline: none;
     box-sizing: border-box;
 }
 
 body {
     height: 100px;
-    align-items: center;
-    justify-content: center;
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
     color: #333;
@@ -18,8 +14,9 @@ body {
 }
 
 .container {
-    height: 70vh;
-    width: 50vh;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
     border-radius: 18px;
     overflow: hidden;
@@ -31,8 +28,8 @@ body {
 .search-box {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
     align-items: center;
+    margin: 20px;
 }
 
 .search-box input {
@@ -51,7 +48,6 @@ body {
     background-color: #333;
     color: #fff;
     padding: 5px 10px;
-    border: none;
     cursor: pointer;
 }
 
@@ -65,43 +61,46 @@ body {
     color: black;
     background-color: lightblue;
     border-radius: 18px;
-    padding: 20px;
+    max-width: fit-content;
     margin: 25px;
     display: block;
 }
 
+.weather-box p {
+    padding: 20px;
+    margin: 0;
+}
+
 .location {
     width: 300px;
-    margin: auto;
     padding: 10px;
-    line-height: 25px;
-    justify-content: center;
-    align-content: center;
-    max-width: fit-content;
-    font-size: 1.3em;
-    font-weight: 600;
     display: inline-block;
 }
 
-.overview {
-    line-height: 25px;
-    display: inline;
+.location p {
+    padding: 0;
+    margin: 10px;
+    line-height: 24px;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
-.icon{
-    margin-bottom: 7px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding: 10px;
-    text-align: center;
-    display: block;
+.location-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.1em;
+    width: 100%;
 }
 
 .meteo {
     text-align: center;
-    margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 1.1em;
     font-style: italic;
+}
+
+.meteo p {
+    padding: 10px;
+    margin: 8px;
 }
