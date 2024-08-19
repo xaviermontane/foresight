@@ -11,28 +11,27 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
+    background-color: whitesmoke;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
 }
 
 .container {
-    position: relative;
-    width: 400px;
-    height: 605px;
-    padding: 20px 30px;
+    height: 70vh;
+    width: 50vh;
+    margin: 20px;
     border-radius: 18px;
-    max-width: 1100px;
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
-    background: blue;
+    background: lightcyan;
 }
 
 .search-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
     align-items: center;
 }
 
@@ -61,11 +60,48 @@ body {
     background-color: #555;
 }
 
-.not-found {
-    width: 100%;
+.weather-box {
     text-align: center;
-    margin-top: 200px;
-    color: red;
-    opacity: 0;
+    color: black;
+    background-color: lightblue;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 25px;
     display: block;
+}
+
+.location {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    line-height: 25px;
+    justify-content: center;
+    align-content: center;
+    max-width: fit-content;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.overview {
+    line-height: 25px;
+    display: inline;
+}
+
+.icon{
+    margin-bottom: 7px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+.meteo {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1em;
+    font-style: italic;
 }

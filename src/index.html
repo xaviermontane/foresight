@@ -8,18 +8,29 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="search-box">
-            <img src="/icons/search.png" alt="search" class="search-icon" width="15px" length="10px">
+            <img src="/icons/search.png" alt="search" class="search-icon" width="20px" length="10px">
             <input type="text" class="search-bar" placeholder="Enter City Name">
             <button class="search-btn" target="">Search</button>
         </div>
-        <div class="not-found">
-            <h1>404</h1>
-            <h2>City Not Found</h2>
-        </div>
-    
+        
+        <div class="weather-box">
+            <p><b>Monday</b> 10th May 2021</p>
+            <div class="location">
+                <img class="icon" src="/icons/sunny.png" alt="sunny" class="weather-icon" height="130px">
+                <span class="overview">
+                    <p style="float: left">New York City</p>
+                    <p style="float: right; text-align: right">15°C<br>Sunny</p>
+                </span>
+            </div>
+
+            <div class="meteo"> <!--In depth element of overview-->
+                <p>15°C</p>
+                <p>Humidity</p>
+                <p>10km/h</p>
+                <p>Precipitacion</p>
+            </div>
 
     <script src="script.js"></script>
 </body>
