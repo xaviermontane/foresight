@@ -7,8 +7,8 @@
 body {
     height: 100px;
     font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
-    color: #333;
+    background-color: #5E81AC;
+    color: #2E3440;
     line-height: 1.6;
     font-size: 16px;
 }
@@ -22,7 +22,7 @@ body {
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
-    background: lightcyan;
+    background: #88C0D0;
 }
 
 .search-box {
@@ -35,17 +35,17 @@ body {
 .search-box input {
     padding: 5px;
     width: 50%;
-    border: 1px solid #333;
+    border: 1px solid #4C566A;
 }
 
 .search-box input:focus {
     transition: 0.2s ease-in;
-    color: white;
-    background-color: #333;
+    color: #2E3440;
+    background-color: #D8DEE9;
 }
 
 .search-btn {
-    background-color: #333;
+    background-color: #2E3440;
     color: #fff;
     padding: 5px 10px;
     cursor: pointer;
@@ -53,12 +53,12 @@ body {
 
 .search-btn:hover {
     transition: 0.2s ease-in;
-    background-color: #555;
+    background-color: #4C566A;
 }
 
 .weather-box {
     text-align: center;
-    color: black;
+    color: #2E3440;
     background-color: lightblue;
     border-radius: 18px;
     max-width: fit-content;
