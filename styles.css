@@ -33,9 +33,10 @@ body {
 }
 
 .search-box input {
-    padding: 5px;
+    padding: 7px;
     width: 50%;
     border: 1px solid #4C566A;
+    border-radius: 10px;
 }
 
 .search-box input:focus {
@@ -47,13 +48,14 @@ body {
 .search-btn {
     background-color: #2E3440;
     color: #fff;
-    padding: 5px 10px;
-    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 10px;
 }
 
 .search-btn:hover {
     transition: 0.2s ease-in;
     background-color: #4C566A;
+    cursor: pointer;
 }
 
 .weather-box {
